@@ -1,0 +1,297 @@
+.header {
+    background-image: url("./Assests/composition-depression-mental-disorder.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh;
+}
+.nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: 4rem;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 32rem;
+}
+.menu a {
+    text-decoration: none;
+    color: #A77B60;
+}
+.menu i {
+    font-size: 1.5rem;
+}
+.menu i:hover {
+    cursor: pointer;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 14rem;
+    padding-top: 23rem;
+}
+
+/* About */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 95vh;
+    /* flex-direction: column; */
+}
+.about1 {
+    align-items: center;
+    width: 23rem;
+    display: flex;
+}
+.about1-desc {
+    width: 24rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+.about1-desc #h5 {
+    /* width: 1rem; */
+    font-size: 1rem;
+    /* color: #4F4F4F; */
+}
+.about2 {
+    /* padding: 5rem; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 60rem;
+}
+.about2-desc h1 {
+    width: 35rem;
+    font-size: xxx-large;
+}
+.about-detail {
+    width: 35rem;
+}
+.about-detail p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.about-detail li {
+    font-size: 1.5rem;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: center;
+}
+.banner1 {
+    display: flex;
+    align-items: center;
+}
+.banner1 h2 {
+    color: #A77B60;
+}
+.banner1 img {
+    padding-left: 1rem;
+    height: 2rem;
+    width: 3rem;
+}
+.help {
+    background-image: url("./Assests/help-bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+}
+.help-desc {
+    background-color: #96D5DE;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items:  */
+    padding: 2rem;
+    position: relative;
+    top: 80%;
+    left: 10%;
+}
+.list1 p {
+    color: #A77B60;
+    padding-left: 1.2rem;
+}
+.list1 li {
+    color: whitesmoke;
+}
+.help-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+    right: 15rem;
+    /* top: 10rem; */
+    height: 70vh;
+}
+.help-banner h4 {
+    width: 25rem;
+    line-height: 1.5rem;
+    color: #4F4F4F;
+}
+.help-banner #h4 {
+    width: 25rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #A77B60;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    /* padding-bottom: 2rem; */
+    position: relative;
+    bottom: 4rem;
+}
+.footer-mid {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-mid-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-mid-desc p {
+    width: 14rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#qr-code {
+    height: 4rem;
+    width: 4rem;
+}
+
+/* About */
+.about-img {
+    width: 80%;
+    position: relative;
+    left: 9rem;
+}
+.about-img h1 {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.about-img img {
+    background-image: url("./Assests/cropped-friends-holding-wrists-each-othe-chain-support-collaborate.jpg");
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    left: 8rem;
+    border-radius: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.about-img p {
+    width: 80%;
+    margin: auto;
+}
+
+/* Footer About */
+.footer-about {
+    position: relative;
+    top: 1rem;
+}
+
+#video-background {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire container */
+    z-index: -1; /* Place the video behind other content */
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+/* Form */
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 2rem;
+    width: 80%;
+    position: relative;
+    left: 7rem;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
